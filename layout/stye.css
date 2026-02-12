@@ -1,0 +1,79 @@
+.main{
+    width: 100%;
+    height: 87%;
+    display: flex;
+}
+
+.leftside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:20px;
+}
+
+.contant h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contant p{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contant button{
+    width: 160px;
+    background-color: transparent;
+    height: 48px;
+    border: 1px solid green;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-size: 18px;
+}
+
+.content button:hover{
+    transform: translateY(-10%);
+    background-color: green(85,225,25);
+}
+
+.rightside{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.rightside img{
+    width: 50%;
+    height: 55%;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+.rightside img:hover{
+    transform: translateY(-10%);
+    box-shadow: rgba(41, 132, 66, 0.2) 0px 7px 29px 0px;;
+}
